@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" th:href="@{/styles1.css}">
+</head>
+<body>
+<header>
+    <span class="span_style first_span">Hi! This is a welcome page. Happy to see you here!</span>
+    <br><br>
+    <span class="span_style second_span">As you may see, this page is dedicated to the show - Rick and Morty</span>
+</header>
+<main>
+    <div class="div_style first_div">
+        <p class="p_in_div_style">SHOW OVERVIEW</p>
+        <a th:href="learn_more">
+            <button>Learn more</button>
+        </a>
+    </div>
+    <div class="div_style">
+        <p class="p_in_div_style">WATCH ON NETFLIX</p>
+        <a th:href="@{https://www.netflix.com/ua/title/80014749}" target="_blank">
+            <button>Go to Netflix</button>
+        </a>
+    </div>
+</main>
+<footer class="footer_style">
+    <p><b>Written by Viktoriia Kocherha, group id: 124-19-1</b></p>
+</footer>
+</body>
+</html>

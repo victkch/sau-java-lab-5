@@ -1,0 +1,69 @@
+body {
+    background-image: url('img2.jpg');
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 40px 0px 0px 0px;
+}
+
+.footer {
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.span_style {
+    color: rgb(252, 252, 252);
+    font-size: 35px;
+    background-color: rgb(114, 197, 197);
+    width: fit-content;
+    padding: 6px;
+}
+
+header {
+    text-align: center;
+}
+
+h4 {
+    color: rgb(88, 219, 252);
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 10px 0px 20px 10px;
+}
+
+.div_style {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+
+.p_style {
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(88, 219, 252);
+}
+
+button {
+    background-color: rgb(88, 219, 252);
+    width: 400px;
+    font-size: 30px;
+    border-radius: 25px;
+    border: 1px solid rgb(79, 67, 212);
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
